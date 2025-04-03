@@ -6,7 +6,7 @@ from mplsoccer import VerticalPitch
 
 #create title of page
 st.title("Ëuros 2024 Shot Map")
-st.subheader('Filter to any team/player to see all their shot taken!')
+st.subheader('Filter to any team then player to see all their shot taken!')
 
 #read the pdf files
 df = pd.read_csv('euros_2024_shot_map.csv')
